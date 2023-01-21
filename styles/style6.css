@@ -11,3 +11,31 @@ body {
   font-size: 62.5%;
   font-family: sans-serif;
 }
+header {
+  background-color: rgb(212, 206, 206);
+  display: flex;
+}
+.circles {
+  background-color: aquamarine;
+  height: 10rem;
+  width: 10rem;
+}
+.red,
+.orange,
+.yellow {
+  width: 2.2 rem;
+  height: 2.2 rem;
+  margin-right: 1.2rem;
+  border-radius: 70%;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orangered;
+}
+.yellow {
+  background-color: yellow;
+}
