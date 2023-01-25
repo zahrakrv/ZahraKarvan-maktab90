@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+body {
+  line-height: 1.5rem;
+  direction: rtl;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  display: block;
+}
+.form {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(189, 206, 235);
+  padding: 10px;
+}
+#submit {
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: rgb(41, 73, 128);
+}
+.span {
+  background-color: rgb(165, 67, 132);
+  padding: 10px;
+  border: 1px dashed rgb(235, 197, 27);
+  opacity: 0;
+  font-size: 2rem;
+}
