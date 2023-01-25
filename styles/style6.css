@@ -1,41 +1,92 @@
 *,
-*::after *::before {
-  padding: 0;
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 html,
 body {
   width: 100%;
   height: 100%;
-  font-size: 62.5%;
   font-family: sans-serif;
 }
-header {
-  background-color: rgb(212, 206, 206);
+body {
+  direction: rtl;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Q-6-1.jpg");
+  line-height: 2.5rem;
 }
-.circles {
-  background-color: aquamarine;
-  height: 10rem;
-  width: 10rem;
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
-.red,
-.orange,
-.yellow {
-  width: 2.2 rem;
-  height: 2.2 rem;
-  margin-right: 1.2rem;
-  border-radius: 70%;
-  display: inline-block;
+.logo {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-size: 18px;
+  color: #fafafa;
+  text-align: center;
+}
+.input-1,
+.input-2 {
+  margin-bottom: 10px;
+  background-color: none;
+  border-bottom: 0.5px solid #fafafa;
 }
 
-.red {
-  background-color: red;
+form {
+  width: 350px;
+  direction: ltr;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-image: linear-gradient(hsl(241deg 88% 71%), hsl(276deg 78% 57%));
+  border-radius: 5%;
 }
-.orange {
-  background-color: orangered;
+input {
+  background-color: blue;
+  /* display: block; */
+  margin-bottom: 25px;
+  padding: 0 10px;
+  border-radius: 5px;
+  background: none;
+  outline: none;
+  border: none;
 }
-.yellow {
-  background-color: yellow;
+::placeholder {
+  color: #fafafa;
+}
+input::after {
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  background-color: #fafafa;
+  border: none;
+  border-radius: 25%;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: black;
+  font-size: 0.5rem;
+  align-content: center;
+  margin-bottom: 30px;
+}
+.check-box {
+  align-self: flex-start;
+  color: #fafafa;
+  margin-top: 40px;
+  font-weight: bolder;
+  position: relative;
+}
+p {
+  color: #fafafa;
+  font-size: 0.6rem;
+  text-align: center;
 }
